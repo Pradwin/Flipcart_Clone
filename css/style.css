@@ -51,11 +51,31 @@ nav ul li a:hover {
   margin: 0 16px 0 56px;
   padding: 0 10px;
 }
-.search button{
-    font-family: "Lato", sans-serif;
+.search button {
+  font-family: "Lato", sans-serif;
+}
+.card {
+  max-width: 91vw;
+  margin: 0 71px;
+}
+.card-item{
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 11px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
 }
 .container {
   min-height: calc(100vh - 58px - 12vh);
+  background-color: #f0f0f0;
+}
+.slider {
+  margin: 12px auto;
+  width: 79vw;
 }
 footer {
   height: 12vh;
