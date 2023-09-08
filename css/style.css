@@ -56,18 +56,25 @@ nav ul li a:hover {
 }
 .card {
   max-width: 91vw;
-  margin: 0 71px;
+  margin-bottom: 50px;
+  margin: 20px 75px;
 }
-.card-item{
+.card-item {
   display: inline-flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0 11px;
+  margin: 11px 11px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f0f0f0;
 }
-.cards{
+.cards {
   display: flex;
   justify-content: center;
   overflow: hidden;
+  background-color: #2d6cd2;
+  border-radius: 20px;
+  padding: 0px 15px;
 }
 .container {
   min-height: calc(100vh - 58px - 12vh);
@@ -82,4 +89,28 @@ footer {
   background-color: var(--main-bg-color);
   color: white;
   font-family: "Lato", sans-serif;
+}
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.image-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
